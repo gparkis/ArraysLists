@@ -23,7 +23,10 @@ namespace ArrayList
             {
                 Console.WriteLine("Selected number is outside array, must not be larger then " + (numbers.Length - 1) + " or smaller than 0");
             }
-            Console.WriteLine(numbers[numberchoice]);
+            else
+            {
+                Console.WriteLine(numbers[numberchoice]);
+            }
 
             List<string> names2 = new List<string> { "Grant", "Noah", "Max" }; ;
             names2.Add("Jessie");
